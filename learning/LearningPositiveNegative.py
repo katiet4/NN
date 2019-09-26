@@ -1,6 +1,6 @@
 from math import e
 from random import randint
-# произведение матриц(возвращает произведение матриц)
+# произведение матриц
 def matmult(a,b):
   answer = [[] for i in range(0,len(a))]
   number = 0
@@ -12,7 +12,7 @@ def matmult(a,b):
       number = 0
   return answer
 
-# сумма матриц(возвращает сумму матриц)
+# сумма матриц
 def matsum(a,b):
   answer = [[] for i in range(0,len(a))]
   for i in range(0,len(a)):
